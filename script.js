@@ -21,7 +21,7 @@ const container = document.getElementById('imageContainer');
 const img = document.createElement('img');
 img.src = randomGroup.image;
 img.alt = "永續貼文圖片";
-img.style.maxWidth = "10%";
+img.style.maxWidth = "90%";
 img.loading = "lazy";
 container.appendChild(img);
 
