@@ -21,9 +21,7 @@ const container = document.getElementById('imageContainer');
 const img = document.createElement('img');
 img.src = randomGroup.image;
 img.alt = "永續貼文圖片";
-img.style.maxWidth = "90%";
-img.style.width = "auto";  // 設定固定寬度
-img.style.height = "auto";  // 高度自動等比例縮放
+img.style.width = "60vw"; // 佔視窗寬度的 60%
 img.loading = "lazy";
 container.appendChild(img);
 
