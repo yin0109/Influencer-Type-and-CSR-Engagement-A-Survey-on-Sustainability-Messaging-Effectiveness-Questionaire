@@ -16,15 +16,15 @@ const groups = [
 const randomGroup = groups[Math.floor(Math.random() * groups.length)];
 const container = document.getElementById('imageContainer');
 
-// 建立圖片元素
+// 圖片元素
 const img = document.createElement('img');
 img.src = randomGroup.image;
-img.alt = "CSR宣傳貼文";
-img.style.maxWidth = "100%";
+img.alt = "永續貼文圖片";
+img.style.maxWidth = "90%";
 img.loading = "lazy";
 container.appendChild(img);
 
-// 建立按鈕元素
+// 問卷按鈕
 const button = document.createElement('button');
 button.textContent = "填寫問卷";
 button.style.marginTop = "20px";
@@ -34,4 +34,5 @@ button.style.cursor = "pointer";
 button.onclick = () => {
   window.location.href = randomGroup.link;
 };
+container.appendChild(document.createElement('br'));
 container.appendChild(button);
