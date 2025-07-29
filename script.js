@@ -1,3 +1,4 @@
+
 const groups = [
   {
     image: "images/EMMA_post.webp",
