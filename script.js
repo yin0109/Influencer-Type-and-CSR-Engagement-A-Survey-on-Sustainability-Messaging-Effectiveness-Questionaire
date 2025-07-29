@@ -7,12 +7,12 @@ const groups = [
   },
   {
     image: "images/Lil_Miquela_post.webp",
-    description: "B",
+    description: "<p>As one of the most iconic virtual influencers of our time, Lil Miquela has maintained a strong presence in fashion, music, and social issues, while actively promoting sustainability and environmental awareness. </p><p>She has supported these causes through various means, including collaborations with sustainable brands, advocacy for the concept of a circular economy, and incorporating sustainability narratives into her social media content.</p><p><strong>Post Content:</strong><br>Clothes should hold memories, not dust.<br>That’s why we want to buy back your no-longer-needed Patagobia gear.<br>When you hand off your gear to #WornWear, we’ll make sure it stays in use, and you’ll get store credit to use toward new Patagobia or Worn Wear items.</p><p>Cleaner closet + credit payout = not too shabby.</p>",
     link: "https://forms.gle/gGcV2TnfZ9Zan1tw7?entry.267493217=GroupB"
   },
   {
     image: "images/Pata_the_Andean_Fox_post.webp",
-    description: "C",
+    description: "<p>Pata the Andean Fox is the official mascot and brand ambassador of Patagobia. Inspired by the native South American Andean fox, Pata symbolizes harmony with nature and the protection of natural habitats. Dressed in mountaineering gear, Pata represents a spirit of outdoor adventure.</p><p><strong>Post Content:</strong><br>Clothes should hold memories, not dust.<br>That’s why we want to buy back your no-longer-needed Patagobia gear.<br>When you hand off your gear to #WornWear, we’ll make sure it stays in use, and you’ll get store credit to use toward new Patagobia or Worn Wear items.</p><p>Cleaner closet + credit payout = not too shabby.</p>",
     link: "https://forms.gle/gGcV2TnfZ9Zan1tw7?entry.267493217=GroupC"
   }
 ];
@@ -43,7 +43,7 @@ container.appendChild(description);
 
 // 問卷按鈕
 const button = document.createElement('button');
-button.textContent = "填寫問卷";
+button.textContent = "Fill out the survey";
 button.style.marginTop = "20px";
 button.style.padding = "10px 20px";
 button.style.fontSize = "16px";
