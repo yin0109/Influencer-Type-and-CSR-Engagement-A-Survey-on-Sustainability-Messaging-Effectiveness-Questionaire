@@ -1,24 +1,37 @@
-
 const groups = [
   {
-    image: "img/EMMA IG貼文.png",
+    image: "images/EMMA_post.webp",
     link: "https://forms.gle/gGcV2TnfZ9Zan1tw7?entry.267493217=GroupA"
   },
   {
-    image: "img/Lil Miquela貼文.png",
+    image: "images/Lil_Miquela_post.webp",
     link: "https://forms.gle/gGcV2TnfZ9Zan1tw7?entry.267493217=GroupB"
   },
   {
-    image: "img/Pata the Andean Fox 貼文.png",
+    image: "images/Pata_the_Andean_Fox_post.webp",
     link: "https://forms.gle/gGcV2TnfZ9Zan1tw7?entry.267493217=GroupC"
   }
 ];
+
 const randomGroup = groups[Math.floor(Math.random() * groups.length)];
 const container = document.getElementById('imageContainer');
+
+// 建立圖片元素
 const img = document.createElement('img');
 img.src = randomGroup.image;
-img.alt = "點我開始問卷";
-img.onclick = () => {
+img.alt = "CSR宣傳貼文";
+img.style.maxWidth = "100%";
+img.loading = "lazy";
+container.appendChild(img);
+
+// 建立按鈕元素
+const button = document.createElement('button');
+button.textContent = "填寫問卷";
+button.style.marginTop = "20px";
+button.style.padding = "10px 20px";
+button.style.fontSize = "16px";
+button.style.cursor = "pointer";
+button.onclick = () => {
   window.location.href = randomGroup.link;
 };
-container.appendChild(img);
+container.appendChild(button);
