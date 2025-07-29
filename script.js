@@ -2,7 +2,7 @@
 const groups = [
   {
     image: "images/EMMA_post.webp",
-    description: "Ａ",
+    description: "Emma Watson is a British actress, model, and social activist who has been deeply committed to advocating for sustainable fashion and ethical consumption. She actively supports environmental protection, labor rights, and corporate social responsibility (CSR). She has publicly endorsed numerous sustainable brands and frequently wears clothing from companies with ethical supply chains, using her personal influence to promote a shift in consumer awareness.<br>Post Content:<br>Clothes should hold memories , not dust.<br>That’s why we want to buy back your no-longer-needed Patagobia gear.<br>When you hand off your gear to #WornWear, we’ll make sure it stays in use, and you’ll get store credit to use toward new Patagobia or Worn Wear items.<br>Cleaner closet + credit payout = not too shabby.",
     link: "https://forms.gle/gGcV2TnfZ9Zan1tw7?entry.267493217=GroupA"
   },
   {
